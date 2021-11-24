@@ -62,7 +62,7 @@ describe('index.js', function () {
       expect(fareTripler).to.be.a('function');
     });
 
-    it('triples fares', function() {
+    it('triples fares', function () {
       expect(fareTripler(12)).to.eql(36);
     });
   });
